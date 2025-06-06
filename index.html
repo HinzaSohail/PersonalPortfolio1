@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hinza Sohail | Portfolio</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://i.pinimg.com/236x/a3/06/aa/a306aaa751eba1be9e94dd1f62aa3ded.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      backdrop-filter: brightness(0.6);
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 50px 20px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav .button {
+      margin: 0 10px;
+      background-color: #444;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+
+    h1 { font-size: 3em; margin-bottom: 10px; }
+    h2 { font-size: 2em; margin-bottom: 15px; }
+    p { font-size: 1.2em; line-height: 1.6; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 8px 0;
+      font-size: 1.1em;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 20px;
+      background-color: #0077b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #005582;
+    }
+
+    .button.secondary {
+      background-color: #28a745;
+    }
+
+    .button.secondary:hover {
+      background-color: #1e7e34;
+    }
+
+    .contact-info {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2em; }
+      h2 { font-size: 1.5em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+
+    <!-- Navigation -->
+    <nav>
+      <a class="button" href="#about">About</a>
+      <a class="button" href="#projects">Projects</a>
+      <a class="button" href="#skills">Skills</a>
+      <a class="button" href="#math">Math</a>
+      <a class="button" href="#education">Education</a>
+      <a class="button" href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="section">
+      <h1>Hinza Sohail</h1>
+      <p>Web Developer & Mathematician</p>
+      <a class="button" href="https://www.linkedin.com/in/hinza-sohail-b79672296" target="_blank">Connect on LinkedIn</a>
+      <br/>
+      <a class="button secondary" href="Hinza_Sohail_CV.pdf" download>📄 Download CV</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer and mathematician who loves solving complex problems,
+        building elegant user interfaces, and exploring the connection between logic and design.
+        My skills include HTML, CSS, JavaScript, and a strong foundation in mathematics and algorithms.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Math Visualizer</strong> – A tool to explore prime factorizations interactively using D3.js.<br>
+          <em>Tech:</em> HTML, CSS, JavaScript, D3.js<br>
+          <a href="https://github.com/yourusername/math-visualizer" target="_blank" style="color:#fff;">GitHub</a> |
+          <a href="https://your-demo-link.com" target="_blank" style="color:#fff;">Live Demo</a>
+        </li>
+        <li>
+          <strong>Personal Portfolio</strong> – This very site showcasing my skills and projects.<br>
+          <em>Tech:</em> HTML, CSS, JS<br>
+          <a href="https://github.com/yourusername/portfolio" target="_blank" style="color:#fff;">GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML5</li>
+        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+        <li><i class="fab fa-js"></i> JavaScript</li>
+        <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+        <li><i class="fas fa-code"></i> Algorithms & Problem Solving</li>
+        <li><i class="fas fa-brain"></i> Pure Math & Logical Thinking</li>
+        <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Math -->
+    <section id="math" class="section">
+      <h2>Math Insight: Prime Numbers & Equations</h2>
+      <p>
+        As a mathematician, I find great beauty in prime numbers and their patterns. Here's a famous equation that
+        represents the <em>Fundamental Theorem of Arithmetic</em>:
+      </p>
+      <p>
+        Every integer \( n > 1 \) is either prime or can be uniquely factored into primes:<br>
+        \( n = p_1^{a_1} \cdot p_2^{a_2} \cdot \dots \cdot p_k^{a_k} \)
+      </p>
+      <p>
+        This theorem forms the base of encryption and number theory. Math is not just abstract—it powers the web and secure systems we build.
+        <br><br>
+        🧠 Read more on my <a href="https://medium.com/@hinza-math" style="color: #fff;" target="_blank">Math Blog</a>.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <p>
+        <strong>Bachelor of Science in Mathematics</strong><br>
+        [Bahauddin Zakariya University, MULTAN], [Second Year]<br>
+        Relevant Courses: Numerical Analysis, Algorithms,Ordinary Differential Equation , Discrete Math
+      </p>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section">
+      <h2>Certifications & Achievements</h2>
+      <ul>
+        <li>✅ Responsive Web Design – freeCodeCamp</li>
+        <li>✅ Data Structures & Algorithms – Coursera</li>
+        <li>🏅 Math Olympiad – at BZU</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="contact-info">
+        📧 Email: <a href="mailto:sohailhinza601@gmail.com" style="color: #fff;">sohailhinza601@gmail.com</a>
+      </p>
+      <p class="contact-info">
+        🔗 LinkedIn: <a href="https://www.linkedin.com/in/hinza-sohail-b79672296" target="_blank" style="color: #fff;">hinza-sohail</a>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+      &copy; 2025 Hinza Sohail. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
